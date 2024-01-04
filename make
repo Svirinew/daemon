@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 
 sudo nano /etc/systemd/system/tiny-exporter.service
-mv /etc/systemd/system/tiny-exporter /etc/systemd/system/tiny-exporter.service
+
 [Unit]
 Description=tiny-exporter daemon
 [Service]
